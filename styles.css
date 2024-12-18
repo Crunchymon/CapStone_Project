@@ -156,7 +156,7 @@ nav{
 /* main section */
 
 main{
-    height: 82%;
+    height: 90%;
     
 
     display: flex;
@@ -186,6 +186,8 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    animation: splat 1s forwards;
     
 }
 
@@ -229,6 +231,7 @@ main{
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 2rem;
+    
 }
 
 
@@ -303,6 +306,7 @@ main{
     align-items: center;
 
     margin: 10rem 0;
+    
 }
 
 .part3-about{
@@ -317,8 +321,13 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: start;
+
+   
     
 }
+
+
+
 
 
 
@@ -334,7 +343,8 @@ main{
     align-items: center;
 
     margin-bottom: 20rem;
-    
+   
+   
 
 }
 
