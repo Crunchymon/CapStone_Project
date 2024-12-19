@@ -12,8 +12,13 @@
      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- main container -->
     <div class="container plus-jakarta-sans">
+
+        <!-- header inside the main container -->
         <header>
+
+            <!-- nav-bar -->
             <nav>
                 <div class="nav-left">
                     <div class="nav-left-left">
@@ -40,28 +45,34 @@
                     <div class="contact nav-hover">Contact</div>
                 </div>
             </nav>
+
         </header>
+
+        <!-- main inside the container -->
         <main>
 
+            <!-- main contains 4 sections and a footer -->
 
-            <div class="part1">
+            <section class="part1">
+                <!-- section one contains the heading and a image  -->
                 <div class="part1-heading">
-                    <h1 class="heading-bold">
-                        <span>Welcome</span> 
-                        <span>to</span> 
-                        <span>the</span> 
-                        <span>Future </span>
-                        <span>of</span> 
-                        <span>Design</span>
+                    <h1 class="heading-bold part1-heading-text">
+                        <span>Welcome to the Future </span>
+                        <span>of Design</span>
                     </h1>
                 </div>
+                
                 <div class="part1-image">
                     <img src="./Images/img1.png" alt="Neon City">
                 </div>
-            </div>
 
+            </section>
 
-            <div class="part2">
+            <section class="part2">
+
+                <!-- section 2 contains 9 cards which will form the project section grid -->
+
+                <!-- and extra card for when there are only two columns so that the last card is not centered rather it is shifted to the left -->
                
                     <div class="cards">
                         <div class="cards-img">
@@ -98,9 +109,7 @@
                             </div>
                         </div>
                     </div>
-                
-
-                
+                          
                     <div class="cards">
                         <div class="cards-img">
                             <img src="./Images/img5.png" alt="HoloTech">
@@ -136,8 +145,6 @@
                             </div>
                         </div>
                     </div>
-                
-
                 
                     <div class="cards">
                         <div class="cards-img">
@@ -177,33 +184,42 @@
 
                     <div class="cards"></div>
                 
-            </div>
-            <div class="part3">
+            </section>
+
+            <section class="part3">
+
+                <!-- section 3 contains the text about myself -->
+
                     <div class="part3-about">
                         <article>
                             I am a visionary designer with a passion
                             for creating futuristic and immersive experiences. My work is inspired by cyberpunk aesthetics and cutting-edge technology.
                         </article>
                     </div>
-            </div>
-            <div class="part4">
+
+            </section>
+
+            <section class="part4">
+
+                <!-- section 4 contains a form element with a submit button to submit the contact details -->
+
                 <form class="part4-contact">
                     <div class="contact-me bold">Contact Me</div>
                     <div class="pin">
                         <div class="pinbox">
-                            <input class="plus-jakarta-sans" required type="text" placeholder="0">
+                            <input class="plus-jakarta-sans" required type="text" placeholder="0" maxlength="1">
                         </div>
                         <div class="pinbox">
-                            <input class="plus-jakarta-sans" required type="text" placeholder="0">
+                            <input class="plus-jakarta-sans" required type="text" placeholder="0" maxlength="1">
                         </div>
                         <div class="pinbox">
-                            <input class="plus-jakarta-sans" required type="text" placeholder="0">
+                            <input class="plus-jakarta-sans" required type="text" placeholder="0" maxlength="1">
                         </div>
                         <div class="pinbox">
-                            <input class="plus-jakarta-sans" required type="text" placeholder="0">
+                            <input class="plus-jakarta-sans" required type="text" placeholder="0" maxlength="1">
                         </div>
                         <div class="pinbox">
-                            <input class="plus-jakarta-sans" required type="text" placeholder="0">
+                            <input class="plus-jakarta-sans" required type="text" placeholder="0" maxlength="1">
                         </div>
                     </div>
                     <div class="submit">
@@ -213,15 +229,23 @@
                         <input type="button" value="Skip">
                     </div>
                 </form>
-            </div>
+
+            </section>
+
             <footer>
+
+                <!-- the footer contains a watermark and a follow buttton -->
+
                 <div class="water-mark">
                     © 2023 NeonFolio
                 </div>
+
                 <div class="follow">
                     <input class="plus-jakarta-sans" type="button" value="Follow">
                 </div>
+
             </footer>
+
         </main>
     </div>
 </body>
