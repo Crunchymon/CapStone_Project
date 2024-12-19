@@ -239,8 +239,6 @@ main{
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 2em;
-
-    border: 2px solid blue;
 }
 
 
@@ -307,7 +305,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center; 
-    border: 2px solid blue;
 }
 
 .part3-about{
@@ -331,7 +328,6 @@ main{
     justify-content: center;
     align-items: center;
     margin: 100px 0;
-    border: 2px solid blue;
 }
 
 .part4-contact{
