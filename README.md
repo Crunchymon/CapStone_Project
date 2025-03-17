@@ -26,7 +26,7 @@ This repository showcases my Capstone Project, a comprehensive initiative design
    ```
 2. **Navigate to the project directory**:
    ```bash
-   cd CapStone_Project 
+   cd CapStone_Project
    ```
 3. **Open the project** in your preferred code editor or directly in your web browser.
 
@@ -34,6 +34,7 @@ This repository showcases my Capstone Project, a comprehensive initiative design
 1. **Explore the Code**: Review the source code to understand its structure and design principles.
 2. **Run Locally**: Open `index.html` in a browser to view the responsive website.
 3. **Experiment**: Modify the code to explore layout adjustments and improve responsiveness.
+4. **Live Demo**: View the hosted project here: [Neonfolio](https://neonfolio.netlify.app/)
 
 ## Acknowledgements
 Special thanks to mentors and peers for their invaluable guidance and constructive feedback, which significantly enhanced the quality and scope of this project.
@@ -41,7 +42,6 @@ Special thanks to mentors and peers for their invaluable guidance and constructi
 ---
 ### Contributions
 Suggestions and contributions are always welcome! Feel free to open issues or submit pull requests to improve this project further.
-
 
 
 
